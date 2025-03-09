@@ -1,6 +1,7 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import { useUser } from "@clerk/nextjs";
+import Link from "next/link";
 import React from "react";
 
 const AddCourse = () => {
@@ -18,9 +19,11 @@ const AddCourse = () => {
           Enjoy your free trial and generate courses effortlessly with AI!
         </p>
       </div>
-      <Button className="bg-blue-600 hover:bg-blue-700 transition-all duration-200 cursor-pointer px-8">
-        + Create Course
-      </Button>
+      <Link href={"/create-course"}>
+        <Button className="bg-blue-600 hover:bg-blue-700 transition-all duration-200 cursor-pointer px-8">
+          + Create Course
+        </Button>
+      </Link>
     </div>
   );
 };

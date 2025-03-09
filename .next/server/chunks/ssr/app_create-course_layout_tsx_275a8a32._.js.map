@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Projects/upadhyaya_free_trail/app/create-course/layout.tsx"],"sourcesContent":["// import React from \"react\";\r\n// import Header from \"../dashboard/_components/Header\";\r\n\r\n// const CreateCourseLayout = ({ children }) => {\r\n//   return (\r\n//     <div>\r\n//       <Header />\r\n//       {children}\r\n//     </div>\r\n//   );\r\n// };\r\n\r\n// export default CreateCourseLayout;\r\n\r\n\r\n"],"names":[],"mappings":"AAAA,6BAA6B;AAC7B,wDAAwD;AAExD,iDAAiD;AACjD,aAAa;AACb,YAAY;AACZ,mBAAmB;AACnB,mBAAmB;AACnB,aAAa;AACb,OAAO;AACP,KAAK;AAEL,qCAAqC","debugId":null}},
+    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
