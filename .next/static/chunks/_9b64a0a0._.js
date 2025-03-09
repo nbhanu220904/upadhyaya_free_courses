@@ -9,7 +9,9 @@ __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
+;
 ;
 ;
 const Hero = ()=>{
@@ -30,7 +32,7 @@ const Hero = ()=>{
                                         children: "News"
                                     }, void 0, false, {
                                         fileName: "[project]/_components/Home/Hero/Hero.tsx",
-                                        lineNumber: 13,
+                                        lineNumber: 14,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -38,13 +40,13 @@ const Hero = ()=>{
                                         children: "We have updated our Term's and Condition's Policy"
                                     }, void 0, false, {
                                         fileName: "[project]/_components/Home/Hero/Hero.tsx",
-                                        lineNumber: 16,
+                                        lineNumber: 17,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/_components/Home/Hero/Hero.tsx",
-                                lineNumber: 12,
+                                lineNumber: 13,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -53,7 +55,7 @@ const Hero = ()=>{
                                 children: "Accelerate Your Tech Career with Expert-Led Learning"
                             }, void 0, false, {
                                 fileName: "[project]/_components/Home/Hero/Hero.tsx",
-                                lineNumber: 22,
+                                lineNumber: 23,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -61,35 +63,42 @@ const Hero = ()=>{
                                 children: "Master cutting-edge software skills, explore new technologies, and unlock endless learning opportunities with our free and premium courses designed for your growth."
                             }, void 0, false, {
                                 fileName: "[project]/_components/Home/Hero/Hero.tsx",
-                                lineNumber: 29,
+                                lineNumber: 30,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "flex mt-8 mb-8 items-center space-x-4"
                             }, void 0, false, {
                                 fileName: "[project]/_components/Home/Hero/Hero.tsx",
-                                lineNumber: 42,
+                                lineNumber: 43,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "flex justify-center",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                    className: "md:px-8 md:py-2.5 px-10 py-2 text-white font-semibold text-base bg-blue-600 hover:bg-blue-800 transition-all duration-200 rounded-full cursor-pointer",
-                                    children: "Get Started →"
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "/dashboard",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        className: "md:px-8 md:py-2.5 px-10 py-2 text-white font-semibold text-base bg-blue-600 hover:bg-blue-800 transition-all duration-200 rounded-full cursor-pointer",
+                                        children: "Get Started →"
+                                    }, void 0, false, {
+                                        fileName: "[project]/_components/Home/Hero/Hero.tsx",
+                                        lineNumber: 63,
+                                        columnNumber: 17
+                                    }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/_components/Home/Hero/Hero.tsx",
-                                    lineNumber: 61,
+                                    lineNumber: 62,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/_components/Home/Hero/Hero.tsx",
-                                lineNumber: 60,
+                                lineNumber: 61,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/_components/Home/Hero/Hero.tsx",
-                        lineNumber: 10,
+                        lineNumber: 11,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -105,28 +114,28 @@ const Hero = ()=>{
                             priority: true
                         }, void 0, false, {
                             fileName: "[project]/_components/Home/Hero/Hero.tsx",
-                            lineNumber: 68,
+                            lineNumber: 71,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/_components/Home/Hero/Hero.tsx",
-                        lineNumber: 67,
+                        lineNumber: 70,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/_components/Home/Hero/Hero.tsx",
-                lineNumber: 8,
+                lineNumber: 9,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/_components/Home/Hero/Hero.tsx",
-            lineNumber: 7,
+            lineNumber: 8,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/_components/Home/Hero/Hero.tsx",
-        lineNumber: 6,
+        lineNumber: 7,
         columnNumber: 5
     }, this);
 };
@@ -265,9 +274,16 @@ const Nav = ({ openNav })=>{
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex items-center space-x-4",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: "md:px-8 md:py-2.5 px-6 py-2 text-white font-semibold text-base bg-blue-600 hover:bg-blue-800 transition-all duration-200 rounded-full",
-                            children: "Join Now"
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            href: "/dashboard",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                className: "md:px-8 md:py-2.5 px-6 py-2 text-white font-semibold text-base bg-blue-600 hover:bg-blue-800 transition-all duration-200 rounded-full",
+                                children: "Join Now"
+                            }, void 0, false, {
+                                fileName: "[project]/_components/Home/NavBar/Nav.tsx",
+                                lineNumber: 68,
+                                columnNumber: 13
+                            }, this)
                         }, void 0, false, {
                             fileName: "[project]/_components/Home/NavBar/Nav.tsx",
                             lineNumber: 67,
@@ -278,7 +294,7 @@ const Nav = ({ openNav })=>{
                             className: "w-8 h-8 cursor-pointer text-black lg:hidden"
                         }, void 0, false, {
                             fileName: "[project]/_components/Home/NavBar/Nav.tsx",
-                            lineNumber: 71,
+                            lineNumber: 73,
                             columnNumber: 11
                         }, this)
                     ]

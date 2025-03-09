@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 19, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Projects/upadhyaya_free_trail/app/dashboard/_components/AddCourse.tsx"],"sourcesContent":["import { useUser } from \"@clerk/nextjs\";\r\nimport React from \"react\";\r\n\r\nconst AddCourse = () => {\r\n  const { user } = useUser();\r\n\r\n  return (\r\n    <div>\r\n      <div>{/* <h1>Hello, {user}</h1> */}</div>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default AddCourse;\r\n"],"names":[],"mappings":";;;;AAAA;;;AAGA,MAAM,YAAY;IAChB,MAAM,EAAE,IAAI,EAAE,GAAG,CAAA,GAAA,+KAAA,CAAA,UAAO,AAAD;IAEvB,qBACE,8OAAC;kBACC,cAAA,8OAAC;;;;;;;;;;AAGP;uCAEe","debugId":null}},
+    {"offset": {"line": 41, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 47, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Projects/upadhyaya_free_trail/app/dashboard/page.tsx"],"sourcesContent":["// import { UserButton } from \"@clerk/nextjs\";\r\nimport React from \"react\";\r\nimport AddCourse from \"./_components/AddCourse\";\r\n\r\nconst page = () => {\r\n  return (\r\n    <div>\r\n      <AddCourse />\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default page;\r\n"],"names":[],"mappings":"AAAA,8CAA8C;;;;;AAE9C;;;AAEA,MAAM,OAAO;IACX,qBACE,8OAAC;kBACC,cAAA,8OAAC,6IAAA,CAAA,UAAS;;;;;;;;;;AAGhB;uCAEe","debugId":null}},
+    {"offset": {"line": 69, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

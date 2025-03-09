@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Projects/upadhyaya_free_trail/app/dashboard/_components/AddCourse.tsx"],"sourcesContent":["\"use client\";\r\nimport { useUser } from \"@clerk/nextjs\";\r\nimport React from \"react\";\r\n\r\nconst AddCourse = () => {\r\n  const { user } = useUser();\r\n\r\n  return (\r\n    <div>\r\n      <div>\r\n        <h1 className=\"text-2xl\">\r\n          Hello,{\" \"}\r\n          <span className=\"font-bold text-blue-700\">{user?.fullName}</span>\r\n        </h1>\r\n        <p className=\"text-sm text-gray-500\">\r\n          {/* Effortlessly create your course for free with AI-powered tools! */}\r\n          Enjoy your free trial and generate courses effortlessly with AI!\r\n        </p>\r\n      </div>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default AddCourse;\r\n"],"names":[],"mappings":";;;;AACA;AADA;;;AAIA,MAAM,YAAY;IAChB,MAAM,EAAE,IAAI,EAAE,GAAG,CAAA,GAAA,4JAAA,CAAA,UAAO,AAAD;IAEvB,qBACE,8OAAC;kBACC,cAAA,8OAAC;;8BACC,8OAAC;oBAAG,WAAU;;wBAAW;wBAChB;sCACP,8OAAC;4BAAK,WAAU;sCAA2B,MAAM;;;;;;;;;;;;8BAEnD,8OAAC;oBAAE,WAAU;8BAC4D;;;;;;;;;;;;;;;;;AAMjF;uCAEe","debugId":null}},
+    {"offset": {"line": 60, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

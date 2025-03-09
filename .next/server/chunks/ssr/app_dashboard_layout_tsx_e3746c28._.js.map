@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Projects/upadhyaya_free_trail/app/dashboard/layout.tsx"],"sourcesContent":["// import { ReactNode } from \"react\";\r\n// import SideBar from \"./_components/SideBar\";\r\n\r\n// interface DashboardLayoutProps {\r\n//   children: ReactNode;\r\n// }\r\n\r\n// const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children }) => {\r\n//   return (\r\n//     <div>\r\n//       <div className=\"md:w-64 hidden md:block\">\r\n//         <SideBar />\r\n//       </div>\r\n//       <div className=\"md:ml-64 p-10\">{children}</div>\r\n//     </div>\r\n//   );\r\n// };\r\n\r\n// export default DashboardLayout;\r\n\r\n\r\nimport React from 'react'\r\n\r\nconst DashboardLayout = ({}) => {\r\n  return (\r\n    <div>DashboardLayout</div>\r\n  )\r\n}\r\n\r\nexport default DashboardLayout"],"names":[],"mappings":"AAAA,qCAAqC;AACrC,+CAA+C;AAE/C,mCAAmC;AACnC,yBAAyB;AACzB,IAAI;AAEJ,8EAA8E;AAC9E,aAAa;AACb,YAAY;AACZ,kDAAkD;AAClD,sBAAsB;AACtB,eAAe;AACf,wDAAwD;AACxD,aAAa;AACb,OAAO;AACP,KAAK;AAEL,kCAAkC;;;;;;AAKlC,MAAM,kBAAkB,CAAC,EAAE;IACzB,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe","debugId":null}},
+    {"offset": {"line": 38, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

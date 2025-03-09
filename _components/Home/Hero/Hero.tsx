@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 
@@ -58,9 +59,11 @@ const Hero = () => {
               /> */}
             </div>
             <div className="flex justify-center">
-              <button className="md:px-8 md:py-2.5 px-10 py-2 text-white font-semibold text-base bg-blue-600 hover:bg-blue-800 transition-all duration-200 rounded-full cursor-pointer">
-                Get Started &#8594;
-              </button>
+              <Link href={"/dashboard"}>
+                <button className="md:px-8 md:py-2.5 px-10 py-2 text-white font-semibold text-base bg-blue-600 hover:bg-blue-800 transition-all duration-200 rounded-full cursor-pointer">
+                  Get Started &#8594;
+                </button>
+              </Link>
             </div>
           </div>
           {/* Image Content */}

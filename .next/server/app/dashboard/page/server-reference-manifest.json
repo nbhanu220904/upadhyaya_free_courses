@@ -8,7 +8,7 @@
         }
       },
       "layer": {
-        "app/dashboard/page": "action-browser"
+        "app/dashboard/page": "rsc"
       }
     },
     "7f9aa3c6c80de560b6be476194d13e7876bc94fa1a": {
@@ -19,7 +19,7 @@
         }
       },
       "layer": {
-        "app/dashboard/page": "action-browser"
+        "app/dashboard/page": "rsc"
       }
     },
     "7f50bc20d85cefad00abfabb8624fcf2d7370eefb6": {
@@ -30,7 +30,7 @@
         }
       },
       "layer": {
-        "app/dashboard/page": "action-browser"
+        "app/dashboard/page": "rsc"
       }
     },
     "7fe7ea0f6ba6255f2dfb67021dd710e03db9232cd6": {

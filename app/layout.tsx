@@ -8,12 +8,12 @@ import {
   // SignedOut,
   // UserButton,
 } from "@clerk/nextjs";
-import { Poppins } from "next/font/google";
+import { Outfit } from "next/font/google";
 import "./globals.css";
 // import ResponsiveNav from "@/_components/Home/NavBar/ResponsiveNav";
 // import Footer from "@/_components/Home/Footer/Footer";
 
-const font = Poppins({
+const font = Outfit({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
 });
