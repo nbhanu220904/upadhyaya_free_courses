@@ -1,5 +1,11 @@
 {
   "app": {
+    "[project]/app/page": [
+      "static/media/QGYvz_MVcBeNP4NJtEtqUYLknw-s.p.17653016.woff2"
+    ],
+    "[project]/app/dashboard/page": [
+      "static/media/QGYvz_MVcBeNP4NJtEtqUYLknw-s.p.17653016.woff2"
+    ],
     "[project]/app/create-course/page": [
       "static/media/QGYvz_MVcBeNP4NJtEtqUYLknw-s.p.17653016.woff2"
     ]
