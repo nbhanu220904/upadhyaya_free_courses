@@ -1,5 +1,8 @@
+"use client";
+
 import React, { ReactNode } from "react";
 import Header from "../dashboard/_components/Header";
+import { UserInputContext } from "../_context/UserInputContext";
 
 interface CreateCourseLayoutProps {
   children: ReactNode;
@@ -8,10 +11,17 @@ interface CreateCourseLayoutProps {
 const CreateCourseLayout: React.FC<CreateCourseLayoutProps> = ({
   children,
 }) => {
+  const [userCourseInput, setUserCourseInput] = React.useState([]);
   return (
     <div>
-      <Header />
-      {children}
+      <UserInputContext.Provider
+        value={{ userCourseInput, setUserCourseInput }}
+      >
+        <>
+          <Header />
+          {children}
+        </>
+      </UserInputContext.Provider>
     </div>
   );
 };

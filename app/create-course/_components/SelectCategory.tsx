@@ -1,29 +1,53 @@
 "use client";
 
-import React from "react";
-import categoryList from "@/app/_shared/CategoryList"; // ✅ Fix: "from" instead of "form"
+import React, { useContext } from "react";
+import categoryList from "@/app/_shared/CategoryList";
 import Image from "next/image";
+import { UserInputContext } from "@/app/_context/UserInputContext";
 
-const SelectCategory = () => {
+// Define Type for Category Item
+interface CategoryItem {
+  id: number;
+  name: string;
+  icon: string;
+}
+
+// Define Context Type
+interface UserCourseInputType {
+  userCourseInput: { category?: string };
+  setUserCourseInput: React.Dispatch<
+    React.SetStateAction<{ category?: string }>
+  >;
+}
+
+const SelectCategory: React.FC = () => {
+  const { userCourseInput, setUserCourseInput } =
+    useContext<UserCourseInputType>(UserInputContext);
+
+  const handleCategoryChange = (category: string) => {
+    setUserCourseInput((prevState) => ({
+      ...prevState,
+      category: category,
+    }));
+  };
+
   return (
-    <div className="px-15 md:px-20 lg:px-20 ">
-      <h2 className="my-5 mb-5 text-md text-blue-700 font-semibold ">
+    <div className="px-15 md:px-20 lg:px-20">
+      <h2 className="my-5 mb-5 text-xl text-blue-700 font-semibold">
         Select the Course Category
       </h2>
       <div className="grid grid-cols-3 gap-10">
-        {categoryList.map((category) => (
+        {categoryList.map((item: CategoryItem) => (
           <div
-            key={category.id}
-            className="flex flex-col items-center gap-3 p-5 border rounded-xl hover:bg-blue-50 hover:border-blue-500 hover:border-1 transition-all duration-200 cursor-pointer"
+            key={item.id}
+            className={`flex flex-col items-center gap-3 p-5 border rounded-xl hover:bg-blue-50 transition-all duration-200 cursor-pointer ${
+              userCourseInput?.category === item.name &&
+              "bg-blue-100 text-black"
+            }`}
+            onClick={() => handleCategoryChange(item.name)}
           >
-            <Image
-              src={category.icon}
-              alt={category.name}
-              // className="w-10 h-10"
-              width={50}
-              height={50}
-            />
-            <h2 className="text-lg font-medium">{category.name}</h2>
+            <Image src={item.icon} alt={item.name} width={50} height={50} />
+            <h2 className="text-lg font-medium">{item.name}</h2>
           </div>
         ))}
       </div>

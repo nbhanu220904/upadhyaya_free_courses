@@ -3,6 +3,9 @@
     "[project]/app/page": [
       "static/media/QGYvz_MVcBeNP4NJtEtqUYLknw-s.p.17653016.woff2"
     ],
+    "[project]/app/(auth)/sign-in/[[...sign-in]]/page": [
+      "static/media/QGYvz_MVcBeNP4NJtEtqUYLknw-s.p.17653016.woff2"
+    ],
     "[project]/app/dashboard/page": [
       "static/media/QGYvz_MVcBeNP4NJtEtqUYLknw-s.p.17653016.woff2"
     ],

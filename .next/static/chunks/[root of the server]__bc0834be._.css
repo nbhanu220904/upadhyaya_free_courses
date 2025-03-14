@@ -1253,14 +1253,6 @@
     width: 95%;
   }
 
-  .w-\[180px\] {
-    width: 180px;
-  }
-
-  .w-\[250px\] {
-    width: 250px;
-  }
-
   .w-\[280px\] {
     width: 280px;
   }
@@ -2273,6 +2265,10 @@
 
   .border-blue-400 {
     border-color: var(--color-blue-400);
+  }
+
+  .border-blue-500 {
+    border-color: var(--color-blue-500);
   }
 
   .border-blue-600 {
@@ -4734,12 +4730,6 @@
   }
 
   @media (width >= 48rem) {
-    .md\:px-25 {
-      padding-inline: calc(var(--spacing) * 25);
-    }
-  }
-
-  @media (width >= 48rem) {
     .md\:py-1 {
       padding-block: calc(var(--spacing) * 1);
     }
@@ -4929,12 +4919,6 @@
   @media (width >= 64rem) {
     .lg\:px-20 {
       padding-inline: calc(var(--spacing) * 20);
-    }
-  }
-
-  @media (width >= 64rem) {
-    .lg\:px-25 {
-      padding-inline: calc(var(--spacing) * 25);
     }
   }
 

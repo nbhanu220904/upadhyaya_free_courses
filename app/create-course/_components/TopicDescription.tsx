@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { UserInputContext } from "@/app/_context/UserInputContext";
 
 const TopicDescription = () => {
+  const { userCourseInput, setUserCourseInput } = useContext(UserInputContext);
+
+  const handleInputChange = (field, value) => {
+    setUserCourseInput((prevState) => ({
+      ...prevState,
+      [field]: value,
+    }));
+  };
+
   return (
     <div className="flex flex-col gap-4 p-5 mx-20 mt-5 lg:mx-44">
       {/* Input Topic */}
@@ -13,6 +23,8 @@ const TopicDescription = () => {
         <Input
           placeholder="Enter topic title"
           className="border mt-2 border-gray-300 focus:ring-2 focus:ring-blue-500 p-3 rounded-lg shadow-sm"
+          defaultValue={userCourseInput?.topic}
+          onChange={(event) => handleInputChange("topic", event.target.value)}
         />
       </div>
 
@@ -27,6 +39,10 @@ const TopicDescription = () => {
         <Textarea
           placeholder="Enter topic description"
           className="border mt-2 border-gray-300 focus:ring-2 focus:ring-blue-500 p-3 rounded-lg shadow-sm resize-none h-32"
+          defaultValue={userCourseInput?.description}
+          onChange={(event) =>
+            handleInputChange("description", event.target.value)
+          }
         />
       </div>
     </div>
